@@ -6,7 +6,13 @@ function App() {
   return (
     <>
       <Header />
-      <h1>DAR ORGULHO PRA MIM E PRO AYRTON</h1>
+      <h1>
+        <style className="imageback"></style>
+        <img
+          src="https://assetsio.gnwcdn.com/ark-genesis-part-2.png?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
+          alt="imageh1"
+        />{" "}
+      </h1>
       <div className={styles.cardList}>
         <Card
           name="Rex"
