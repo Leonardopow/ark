@@ -2,3 +2,14 @@
   background: #00ff00;
   display: flex;
 }
+.board {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 820px;
+  font-size: 24px;
+}

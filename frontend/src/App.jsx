@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <h1>Teste</h1>
+      <h1>DAR ORGULHO PRA MIM E PRO AYRTON</h1>
       <div className={styles.cardList}>
         <Card
           name="Rex"
