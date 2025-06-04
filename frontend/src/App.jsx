@@ -3,22 +3,23 @@ import Card from "./components/Card/Card";
 import { Header } from "./components/Header/Header";
 import React from "react";
 
+import { dinousaurs } from "./data/dinousaurs";
+
 function App() {
+  console.log(dinousaurs)
   return (
     <>
       <Header />
       <div className={styles.appBackground}>
         <div className={styles.cardList}>
-          <Card
-            name="Rex"
-            imageUrl="https://www.dododex.com/media/creature/rex.png"
-            description="Serve pra quase nada, giga é muito melhor mas ajuda no raid para base tek"
-          />
-          <Card
-            name="Ptero"
-            imageUrl="https://www.dododex.com/media/creature/pteranodon.png"
-            description="Era bom, mas hoje só serve contra maewing"
-          />
+           {dinousaurs.map(dino => (
+            <Card
+            key={dino.nome}
+            name={dino.nome}
+            imageUrl={`https://www.dododex.com/media/creature/${dino.nome.toLowerCase()}.png`}
+            description={dino.descricao}
+            />
+            ))}
         </div>
       </div>
     </>

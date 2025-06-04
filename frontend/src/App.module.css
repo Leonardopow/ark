@@ -1,10 +1,10 @@
 .cardList {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 40px;
   justify-content: center;
   margin: 0 auto;
   width: 90%;
-  max-width: 800px;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;

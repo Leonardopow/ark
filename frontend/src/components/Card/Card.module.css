@@ -16,8 +16,6 @@
   text-align: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
     background-color 0.3s ease;
-  width: 230px;
-
   box-shadow: 0 8px 24px #0000004d;
 }
 
